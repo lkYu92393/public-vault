@@ -73,5 +73,206 @@
       ,"xOther"            : ["CCK", "MMM", "MELI", "NOW"]
       ,"zzSmallcap"        : ["ABCL", "AVRO", "CEI", "EH", "GFAI", "GROM", "KAVL", "MULN", "MVST", "OTRK", "PETZ", "BBIG", "MMAT", "FFIE"]
     }
-  }
+  },
+  "STOCK_INFO": {
+    "HSI"    : { "type": "index", "name": "Hang Seng Index", "extra_info": "牛熊購沽", "tv_code": "HSI:HSI", "first_trade_date": "1975-01-31" }
+    ,"0388.HK": { "type": "hsi", "name": "香港交易所", "extra_info": "牛熊購沽", "tv_code": "HKEX:388", "first_trade_date": "2000-06-27" }
+    ,"0669.HK": { "type": "hsi", "name": "創科實業", "extra_info": "牛熊購", "tv_code": "HKEX:669", "first_trade_date": "2004-06-14" }
+    ,"2313.HK": { "type": "hsi", "name": "申洲國際", "notes": "周期九月底?", "extra_info": "購", "tv_code": "HKEX:2313", "first_trade_date": "2005-11-24" }
+    ,"2806.HK": { "type": "etf", "name": "GX中國消費", "extra_info": "", "tv_code": "HKEX:2806", "first_trade_date": "2020-01-16" }
+    ,"2807.HK": { "type": "etf", "name": "GX中國機械人及人工智能", "extra_info": "", "tv_code": "HKEX:2807", "first_trade_date": "2020-08-06" }
+    ,"2809.HK": { "type": "etf", "name": "GX中國潔能", "extra_info": "", "tv_code": "HKEX:2809", "first_trade_date": "2020-01-16" }
+    ,"2820.HK": { "type": "etf", "name": "GX中國生科", "extra_info": "", "tv_code": "HKEX:2820", "first_trade_date": "2019-07-24" }
+    ,"2826.HK": { "type": "etf", "name": "GX中國雲算", "extra_info": "", "tv_code": "HKEX:2826", "first_trade_date": "2019-07-24" }
+    ,"3037.HK": { "type": "hsiEtf", "name": "南方恆指ETF", "extra_info": "", "tv_code": "HKEX:3037", "first_trade_date": "2021-05-06" }
+    ,"7200.HK": { "type": "hsiEtf", "name": "FL二南方恆指", "extra_info": "", "tv_code": "HKEX:7200", "first_trade_date": "2017-03-14" }
+    ,"7300.HK": { "type": "hsiEtf", "name": "FI南方恆指", "extra_info": "", "tv_code": "HKEX:7300", "first_trade_date": "2017-03-14" }
+    ,"7500.HK": { "type": "hsiEtf", "name": "FI二南方恆指", "extra_info": "", "tv_code": "HKEX:7500", "first_trade_date": "2019-05-27" }
+    ,"0005.HK": { "type": "bank", "name": "匯豐控股", "extra_info": "牛熊購沽", "tv_code": "HKEX:5", "first_trade_date": "2000-01-03" }
+    ,"0011.HK": { "type": "bank", "name": "恆生銀行", "extra_info": "購", "tv_code": "HKEX:11", "first_trade_date": "2000-01-04" }
+    ,"0023.HK": { "type": "bank", "name": "東亞銀行", "extra_info": "", "tv_code": "HKEX:23", "first_trade_date": "2000-01-04" }
+    ,"2388.HK": { "type": "bank", "name": "中銀香港", "extra_info": "購", "tv_code": "HKEX:2388", "first_trade_date": "2002-07-25" }
+    ,"3968.HK": { "type": "bank", "name": "招商銀行", "extra_info": "牛熊購沽", "tv_code": "HKEX:3968", "first_trade_date": "2006-09-22" }
+    ,"3988.HK": { "type": "bank", "name": "中國銀行", "extra_info": "牛購沽", "tv_code": "HKEX:3988", "first_trade_date": "2006-06-01" }
+    ,"0027.HK": { "type": "gambling", "name": "銀河娛樂", "extra_info": "購沽", "tv_code": "HKEX:27", "first_trade_date": "2000-01-04" }
+    ,"1299.HK": { "type": "insurance", "name": "友邦保險", "extra_info": "牛熊購沽", "tv_code": "HKEX:1299", "first_trade_date": "2010-10-29" }
+    ,"2601.HK": { "type": "insurance", "name": "中國太保", "extra_info": "購", "tv_code": "HKEX:2601", "first_trade_date": "2009-12-23" }
+    ,"2628.HK": { "type": "insurance", "name": "中國人壽", "extra_info": "購沽", "tv_code": "HKEX:2628", "first_trade_date": "2003-12-18" }
+    ,"6060.HK": { "type": "insurance", "name": "眾安在線", "extra_info": "", "tv_code": "HKEX:6060", "first_trade_date": "2017-09-28" }
+    ,"0175.HK": { "type": "car", "name": "吉利汽車", "extra_info": "牛熊購沽", "tv_code": "HKEX:175", "first_trade_date": "2005-09-29" }
+    ,"0489.HK": { "type": "car", "name": "東風集團", "extra_info": "購", "tv_code": "HKEX:489", "first_trade_date": "2005-12-07" }
+    ,"1766.HK": { "type": "car", "name": "中國中車", "extra_info": "購", "tv_code": "HKEX:1766", "first_trade_date": "2008-08-21" }
+    ,"2238.HK": { "type": "car", "name": "廣汽集團", "extra_info": "", "tv_code": "HKEX:2238", "first_trade_date": "2000-01-04" }
+    ,"2333.HK": { "type": "car", "name": "長城汽車", "extra_info": "牛熊購", "tv_code": "HKEX:2333", "first_trade_date": "2003-12-15" }
+    ,"0493.HK": { "type": "commercial", "name": "國美零售", "extra_info": "", "tv_code": "HKEX:493", "first_trade_date": "2004-09-10" }
+    ,"0921.HK": { "type": "commercial", "name": "海信家電", "extra_info": "", "tv_code": "HKEX:921", "first_trade_date": "2000-01-04" }
+    ,"1910.HK": { "type": "commercial", "name": "新秀麗", "extra_info": "", "tv_code": "HKEX:1910", "first_trade_date": "2007-11-01" }
+    ,"0683.HK": { "type": "consturction", "name": "嘉里建設", "extra_info": "", "tv_code": "HKEX:683", "first_trade_date": "2000-01-04" }
+    ,"0914.HK": { "type": "consturction", "name": "海螺水泥", "extra_info": "", "tv_code": "HKEX:914", "first_trade_date": "2000-01-04" }
+    ,"1313.HK": { "type": "consturction", "name": "華潤水泥", "extra_info": "", "tv_code": "HKEX:1313", "first_trade_date": "2009-10-06" }
+    ,"0123.HK": { "type": "investment", "name": "越秀地產", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"0688.HK": { "type": "investment", "name": "中國海外發展", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"1109.HK": { "type": "investment", "name": "華潤置地", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"3900.HK": { "type": "investment", "name": "綠城中國", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"0700.HK": { "type": "itService", "name": "騰訊控股", "extra_info": "", "tv_code": "HKEX:700", "first_trade_date": "2004-06-16" }
+    ,"0772.HK": { "type": "itService", "name": "閱文集團", "extra_info": "", "tv_code": "HKEX:772", "first_trade_date": "2017-11-08" }
+    ,"1024.HK": { "type": "itService", "name": "快手-W", "extra_info": "", "tv_code": "HKEX:1024", "first_trade_date": "2021-02-05" }
+    ,"2013.HK": { "type": "itService", "name": "微盟集團", "extra_info": "", "tv_code": "HKEX:2013", "first_trade_date": "2019-01-15" }
+    ,"2400.HK": { "type": "itService", "name": "心動公司", "extra_info": "", "tv_code": "HKEX:2400", "first_trade_date": "2019-12-12" }
+    ,"3690.HK": { "type": "itService", "name": "美團-W", "extra_info": "", "tv_code": "HKEX:3690", "first_trade_date": "2018-09-20" }
+    ,"9961.HK": { "type": "itService", "name": "攜程集團-S", "extra_info": "", "tv_code": "HKEX:9961", "first_trade_date": "2021-04-19" }
+    ,"9988.HK": { "type": "itService", "name": "阿里巴巴-SW", "extra_info": "", "tv_code": "HKEX:9988", "first_trade_date": "2019-11-26" }
+    ,"9990.HK": { "type": "itService", "name": "祖龍娛樂", "extra_info": "", "tv_code": "HKEX:9990", "first_trade_date": "2020-07-15" }
+    ,"9999.HK": { "type": "itService", "name": "網易-S", "extra_info": "", "tv_code": "HKEX:9999", "first_trade_date": "2020-06-11" }
+    ,"0268.HK": { "type": "itBusiness", "name": "金蝶國際", "extra_info": "", "tv_code": "HKEX:268", "first_trade_date": "2005-09-29" }
+    ,"0354.HK": { "type": "itBusiness", "name": "中國軟件國際", "extra_info": "", "tv_code": "HKEX:354", "first_trade_date": "2003-06-20" }
+    ,"0909.HK": { "type": "itBusiness", "name": "明源雲", "extra_info": "", "tv_code": "HKEX:909", "first_trade_date": "2020-09-25" }
+    ,"1952.HK": { "type": "itBusiness", "name": "雲頂新耀-B", "extra_info": "", "tv_code": "HKEX:1952", "first_trade_date": "2020-10-09" }
+    ,"3896.HK": { "type": "itBusiness", "name": "金山雲", "extra_info": "", "tv_code": "HKEX:3896", "first_trade_date": "2022-12-30" }
+    ,"9698.HK": { "type": "itBusiness", "name": "萬國數據-SW", "extra_info": "", "tv_code": "HKEX:9698", "first_trade_date": "2020-11-02" }
+    ,"0285.HK": { "type": "itHardware", "name": "比亞迪雲子", "extra_info": "", "tv_code": "HKEX:285", "first_trade_date": "2007-12-20" }
+    ,"0992.HK": { "type": "itHardware", "name": "聯想集團", "extra_info": "", "tv_code": "HKEX:992", "first_trade_date": "2000-03-22" }
+    ,"1810.HK": { "type": "itHardware", "name": "小米集團-W", "extra_info": "", "tv_code": "HKEX:1810", "first_trade_date": "2018-07-09" }
+    ,"2018.HK": { "type": "itHardware", "name": "瑞聲科技", "extra_info": "", "tv_code": "HKEX:2018", "first_trade_date": "2005-08-09" }
+    ,"1308.HK": { "type": "logistics", "name": "海豐國際控股有限公司", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"2343.HK": { "type": "logistics", "name": "太平洋航運集團", "extra_info": "", "tv_code": "HKEX:2343", "first_trade_date": "2004-07-14" }
+    ,"1093.HK": { "type": "medicBio", "name": "石藥集團", "extra_info": "", "tv_code": "HKEX:1093", "first_trade_date": "2003-05-13" }
+    ,"1696.HK": { "type": "medicBio", "name": "復銳醫療科技", "extra_info": "", "tv_code": "HKEX:1696", "first_trade_date": "2017-09-19" }
+    ,"1830.HK": { "type": "medicBio", "name": "完美醫療", "extra_info": "", "tv_code": "HKEX:1830", "first_trade_date": "2012-02-10" }
+    ,"2162.HK": { "type": "medicBio", "name": "康諾亞-B", "extra_info": "", "tv_code": "HKEX:2162", "first_trade_date": "2021-07-08" }
+    ,"2190.HK": { "type": "medicBio", "name": "歸創通橋-B", "extra_info": "", "tv_code": "HKEX:2190", "first_trade_date": "2021-07-05" }
+    ,"2196.HK": { "type": "medicBio", "name": "上海復星醫藥", "extra_info": "", "tv_code": "HKEX:2196", "first_trade_date": "2012-10-30" }
+    ,"2269.HK": { "type": "medicBio", "name": "藥明生物", "extra_info": "", "tv_code": "HKEX:2269", "first_trade_date": "2017-06-13" }
+    ,"2696.HK": { "type": "medicBio", "name": "復宏漢霖", "extra_info": "", "tv_code": "HKEX:2696", "first_trade_date": "2019-09-25" }
+    ,"3759.HK": { "type": "medicBio", "name": "康龍化成", "extra_info": "", "tv_code": "HKEX:3759", "first_trade_date": "2019-11-28" }
+    ,"6127.HK": { "type": "medicBio", "name": "昭衍新藥", "extra_info": "", "tv_code": "HKEX:6127", "first_trade_date": "2021-02-26" }
+    ,"6606.HK": { "type": "medicBio", "name": "諾輝健康", "extra_info": "", "tv_code": "HKEX:6606", "first_trade_date": "2021-02-18" }
+    ,"9939.HK": { "type": "medicBio", "name": "開拓藥業", "extra_info": "", "tv_code": "HKEX:9939", "first_trade_date": "2020-05-22" }
+    ,"0763.HK": { "type": "semiconductor", "name": "中興通訊", "extra_info": "", "tv_code": "HKEX:763", "first_trade_date": "2004-12-09" }
+    ,"0981.HK": { "type": "semiconductor", "name": "中芯國際", "extra_info": "", "tv_code": "HKEX:981", "first_trade_date": "2004-03-18" }
+    ,"1347.HK": { "type": "semiconductor", "name": "華虹半導體", "extra_info": "", "tv_code": "HKEX:1347", "first_trade_date": "2014-10-15" }
+    ,"1385.HK": { "type": "semiconductor", "name": "上海復旦", "extra_info": "", "tv_code": "HKEX:1385", "first_trade_date": "2000-08-04" }
+    ,"2878.HK": { "type": "semiconductor", "name": "晶門半導體", "extra_info": "", "tv_code": "HKEX:2878", "first_trade_date": "2004-04-08" }
+    ,"6908.HK": { "type": "semiconductor", "name": "宏光半導體", "extra_info": "", "tv_code": "HKEX:6908", "first_trade_date": "2016-12-30" }
+    ,"0968.HK": { "type": "photovoltaic", "name": "信義光能", "extra_info": "", "tv_code": "HKEX:968", "first_trade_date": "2013-12-12" }
+    ,"6865.HK": { "type": "photovoltaic", "name": "福萊特玻璃", "extra_info": "", "tv_code": "HKEX:6865", "first_trade_date": "2015-11-26" }
+    ,"2232.HK": { "type": "clothes", "name": "晶苑國際", "extra_info": "", "tv_code": "HKEX:2232", "first_trade_date": "2017-11-03" }
+    ,"3998.HK": { "type": "clothes", "name": "波司登", "extra_info": "", "tv_code": "HKEX:3998", "first_trade_date": "2007-10-11" }
+    ,"0008.HK": { "type": "telecomm", "name": "電訊盈科", "extra_info": "", "tv_code": "HKEX:8", "first_trade_date": "2003-01-08" }
+    ,"0215.HK": { "type": "telecomm", "name": "和記電訊", "extra_info": "", "tv_code": "HKEX:215", "first_trade_date": "2004-04-01" }
+    ,"0658.HK": { "type": "telecomm", "name": "中國高速傳動", "extra_info": "", "tv_code": "HKEX:658", "first_trade_date": "2007-07-04" }
+    ,"0762.HK": { "type": "telecomm", "name": "中國聯通", "extra_info": "", "tv_code": "HKEX:762", "first_trade_date": "2000-06-22" }
+    ,"0941.HK": { "type": "telecomm", "name": "中國移動", "extra_info": "", "tv_code": "HKEX:941", "first_trade_date": "2000-01-04" }
+    ,"0836.HK": { "type": "energy", "name": "華潤電力控股", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"0857.HK": { "type": "energy", "name": "中國石油天然氣", "extra_info": "", "tv_code": "HKEX:857", "first_trade_date": "2000-04-07" }
+    ,"1193.HK": { "type": "energy", "name": "華潤燃氣", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"1608.HK": { "type": "energy", "name": "偉能集團", "extra_info": "", "tv_code": "HKEX:1608", "first_trade_date": "2016-11-24" }
+    ,"0558.HK": { "type": "misc", "name": "力勁科技", "extra_info": "", "tv_code": "HKEX:558", "first_trade_date": "2006-10-16" }
+    ,"0788.HK": { "type": "misc", "name": "中國鐵塔", "extra_info": "", "tv_code": "HKEX:788", "first_trade_date": "2018-08-08" }
+    ,"2208.HK": { "type": "misc", "name": "金風科技", "extra_info": "", "tv_code": "HKEX:2208", "first_trade_date": "2010-10-08" }
+
+    ,"IWM"    : { "type": "index", "name": "iShares Russell 2000 ETF", "extra_info": "", "tv_code": "NASDAQ:IWM", "first_trade_date": "2000-05-26" }
+    ,"QQQ"    : { "type": "index", "name": "Nasdaq 100 ETF", "extra_info": "", "tv_code": "NASDAQ:QQQ", "first_trade_date": "1999-03-10" }
+    ,"SPY"    : { "type": "index", "name": "SPY 500 ETF", "extra_info": "", "tv_code": "NASDAQ:SPY", "first_trade_date": "1993-01-29" }
+    ,"BA"     : { "type": "other", "name": "Boeing", "extra_info": "", "tv_code": "NYSE:BA", "first_trade_date": "1962-01-02" }
+    ,"BRK-B"  : { "type": "other", "name": "", "extra_info": "", "tv_code": "NYSE:BRK.B", "first_trade_date": "1996-05-09" }
+    ,"SCHD"   : { "type": "etf", "name": "Schwab Dividend ETF", "extra_info": "", "tv_code": "AMEX:SCHD", "first_trade_date": "2011-10-20" }
+    ,"SCHK"   : { "type": "etf", "name": "Schwab 1000 ETF", "extra_info": "", "tv_code": "AMEX:SCHK", "first_trade_date": "2017-10-12" }
+    ,"BAC"    : { "type": "bank", "name": "Bank Of America", "extra_info": "", "tv_code": "NYSE:BAC", "first_trade_date": "1973-02-21" }
+    ,"C"      : { "type": "bank", "name": "Citibank", "extra_info": "", "tv_code": "NYSE:C", "first_trade_date": "1977-01-03" }
+    ,"JPM"    : { "type": "bank", "name": "JP Morgan", "extra_info": "", "tv_code": "NYSE:JPM", "first_trade_date": "1980-03-17" }
+    ,"CAKE"   : { "type": "food", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"K"      : { "type": "food", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"KO"     : { "type": "food", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"MET"    : { "type": "insurance", "name": "MetLife", "extra_info": "", "tv_code": "NYSE:MET", "first_trade_date": "2000-04-05" }
+    ,"MKL"    : { "type": "insurance", "name": "Markel Health", "extra_info": "", "tv_code": "NYSE:MKL", "first_trade_date": "1986-12-12" }
+    ,"PGR"    : { "type": "insurance", "name": "Progressive Corp", "extra_info": "", "tv_code": "NYSE:PGR", "first_trade_date": "1980-03-17" }
+    ,"UNH"    : { "type": "insurance", "name": "United Health", "extra_info": "", "tv_code": "NYSE:UNH", "first_trade_date": "1984-10-17" }
+    ,"LMND"   : { "type": "finance", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"MA"     : { "type": "finance", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"MGM"    : { "type": "finance", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"V"      : { "type": "finance", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"AMZN"   : { "type": "it", "name": "Amazon", "extra_info": "", "tv_code": "NASDAQ:AMZN", "first_trade_date": "1997-05-15" }
+    ,"DDOG"   : { "type": "it", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"DLO"    : { "type": "it", "name": "DLocal", "extra_info": "", "tv_code": "NASDAQ:DLO", "first_trade_date": "2021-06-03" }
+    ,"DOCU"   : { "type": "it", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"GOOG"   : { "type": "it", "name": "Google", "extra_info": "", "tv_code": "NASDAQ:GOOG", "first_trade_date": "2004-08-19" }
+    ,"MA"     : { "type": "it", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"META"   : { "type": "it", "name": "Meta", "extra_info": "", "tv_code": "NASDAQ:META", "first_trade_date": "2012-05-18" }
+    ,"MSFT"   : { "type": "it", "name": "Microsoft", "extra_info": "", "tv_code": "NASDAQ:MSFT", "first_trade_date": "1986-03-13" }
+    ,"PHUN"   : { "type": "it", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"PYPL"   : { "type": "it", "name": "Paypal", "extra_info": "", "tv_code": "NASDAQ:PYPL", "first_trade_date": "2015-07-06" }
+    ,"RBLX"   : { "type": "it", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"SNAP"   : { "type": "it", "name": "Snap", "extra_info": "", "tv_code": "NYSE:SNAP", "first_trade_date": "2017-03-02" }
+    ,"SPOT"   : { "type": "it", "name": "Spotify", "extra_info": "", "tv_code": "NYSE:SPOT", "first_trade_date": "2018-04-03" }
+    ,"TTD"    : { "type": "it", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"V"      : { "type": "it", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"AAPL"   : { "type": "itHardware", "name": "Apple Computer", "extra_info": "", "tv_code": "NASDAQ:AAPL", "first_trade_date": "1980-12-12" }
+    ,"AMD"    : { "type": "itHardware", "name": "", "extra_info": "", "tv_code": "NASDAQ:AMD", "first_trade_date": "1980-03-17" }
+    ,"CSCO"   : { "type": "itHardware", "name": "Cisco", "extra_info": "", "tv_code": "NASDAQ:CSCO", "first_trade_date": "1990-02-16" }
+    ,"INTC"   : { "type": "itHardware", "name": "Intel", "extra_info": "", "tv_code": "NASDAQ:INTC", "first_trade_date": "1980-03-17" }
+    ,"LAZR"   : { "type": "itHardware", "name": "Luminar Technologies", "extra_info": "", "tv_code": "NASDAQ:LAZR", "first_trade_date": "2019-03-25" }
+    ,"MU"     : { "type": "itHardware", "name": "Micron Technologies", "extra_info": "", "tv_code": "NASDAQ:MU", "first_trade_date": "1984-06-01" }
+    ,"NVDA"   : { "type": "itHardware", "name": "Nvidia", "extra_info": "", "tv_code": "NASDAQ:NVDA", "first_trade_date": "1999-01-22" }
+    ,"ORCL"   : { "type": "itHardware", "name": "Oracle", "extra_info": "", "tv_code": "NYSE:ORCL", "first_trade_date": "1986-03-12" }
+    ,"PLTR"   : { "type": "itBigdata", "name": "Palantir Technologies", "extra_info": "", "tv_code": "NYSE:PLTR", "first_trade_date": "2020-09-30" }
+    ,"LYFT"   : { "type": "transportation", "name": "Lyft", "extra_info": "", "tv_code": "NASDAQ:LYFT", "first_trade_date": "2019-03-29" }
+    ,"UBER"   : { "type": "transportation", "name": "Uber Technologies", "extra_info": "", "tv_code": "NYSE:UBER", "first_trade_date": "2019-05-10" }
+    ,"HE"     : { "type": "infrastructure", "name": "Hawaiian Electric", "extra_info": "", "tv_code": "NYSE:HE", "first_trade_date": "1973-02-21" }
+    ,"CCL"    : { "type": "logistic", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"DAL"    : { "type": "logistic", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"FDX"    : { "type": "logistic", "name": "FEDex", "extra_info": "", "tv_code": "NYSE:FDX", "first_trade_date": "1978-04-12" }
+    ,"UPS"    : { "type": "logistic", "name": "United Portal Service", "extra_info": "", "tv_code": "NYSE:UPS", "first_trade_date": "1999-11-10" }
+    ,"CAT"    : { "type": "manufracture", "name": "", "extra_info": "", "tv_code": "AMEX:CAT", "first_trade_date": "1962-01-02" }
+    ,"DE"     : { "type": "manufracture", "name": "", "extra_info": "", "tv_code": "AMEX:DE", "first_trade_date": "1972-06-01" }
+    ,"BBIG"   : { "type": "cyrpto", "name": "Vinco Ventures", "extra_info": "", "tv_code": "NASDAQ:BBIG", "first_trade_date": "2018-05-03" }
+    ,"COIN"   : { "type": "cyrpto", "name": "Coinbase", "extra_info": "", "tv_code": "NASDAQ:COIN", "first_trade_date": "2021-04-14" }
+    ,"RIOT"   : { "type": "cyrpto", "name": "Riot Platform Ord Shs", "extra_info": "", "tv_code": "NASDAQ:RIOT", "first_trade_date": "2016-03-31" }
+    ,"SOS"    : { "type": "cyrpto", "name": "SOS Ltd", "extra_info": "", "tv_code": "NYSE:SOS", "first_trade_date": "2017-04-28" }
+    ,"FUBO"   : { "type": "streaming", "name": "Fubotv", "extra_info": "", "tv_code": "NYSE:FUBO", "first_trade_date": "2019-03-27" }
+    ,"NFLX"   : { "type": "streaming", "name": "Netflix", "extra_info": "", "tv_code": "NASDAQ:NFLX", "first_trade_date": "2002-05-23" }
+    ,"ROKU"   : { "type": "streaming", "name": "Roku Streaming", "extra_info": "", "tv_code": "NASDAQ:ROKU", "first_trade_date": "2017-09-28" }
+    ,"AMAT"   : { "type": "chips", "name": "Applied Material", "extra_info": "", "tv_code": "NASDAQ:AMAT", "first_trade_date": "1980-03-17" }
+    ,"QCOM"   : { "type": "chips", "name": "Qualcomm", "extra_info": "", "tv_code": "NASDAQ:QCOM", "first_trade_date": "1991-12-13" }
+    ,"TSM"    : { "type": "chips", "name": "Taiwan Semiconductor Manufracturing", "extra_info": "", "tv_code": "NYSE:TSM", "first_trade_date": "1997-10-09" }
+    ,"BURL"   : { "type": "commercial", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"HD"     : { "type": "commercial", "name": "Home Depot", "extra_info": "", "tv_code": "NYSE:HD", "first_trade_date": "1981-09-22" }
+    ,"SHOP"   : { "type": "commercial", "name": "Shopify", "extra_info": "", "tv_code": "NYSE:SHOP", "first_trade_date": "2015-05-20" }
+    ,"TGT"    : { "type": "commercial", "name": "Target", "extra_info": "", "tv_code": "NYSE:TGT", "first_trade_date": "1973-02-21" }
+    ,"WMT"    : { "type": "commercial", "name": "Walmart", "extra_info": "", "tv_code": "NYSE:WMT", "first_trade_date": "1972-08-25" }
+    ,"LCID"   : { "type": "ev", "name": "Lucid", "extra_info": "", "tv_code": "NASDAQ:LCID", "first_trade_date": "2020-09-18" }
+    ,"NIO"    : { "type": "ev", "name": "", "extra_info": "", "tv_code": "NYSE:NIO", "first_trade_date": "2018-09-12" }
+    ,"RIVN"   : { "type": "ev", "name": "Rivian", "extra_info": "", "tv_code": "NASDAQ:RIVN", "first_trade_date": "2021-11-10" }
+    ,"TSLA"   : { "type": "ev", "name": "Tesla", "extra_info": "", "tv_code": "NASDAQ:TSLA", "first_trade_date": "2010-06-29" }
+    ,"BABA"   : { "type": "zn", "name": "Alibaba Group", "extra_info": "", "tv_code": "NYSE:BABA", "first_trade_date": "2014-09-19" }
+    ,"BIDU"   : { "type": "zn", "name": "Baidu", "extra_info": "", "tv_code": "NASDAQ:BIDU", "first_trade_date": "2005-08-05" }
+    ,"JD"     : { "type": "zn", "name": "JD.com", "extra_info": "", "tv_code": "NASDAQ:JD", "first_trade_date": "2014-05-22" }
+    ,"PDD"    : { "type": "zn", "name": "Pinduoduo", "extra_info": "", "tv_code": "NASDAQ:PDD", "first_trade_date": "2018-07-26" }
+    ,"LULU"   : { "type": "clothes", "name": "Lululemon", "extra_info": "", "tv_code": "NASDAQ:LULU", "first_trade_date": "2007-07-27" }
+    ,"CVS"    : { "type": "health", "name": "CVS Health Corp", "extra_info": "", "tv_code": "NYSE:CVS", "first_trade_date": "1973-02-21" }
+    ,"ENPH"   : { "type": "energy", "name": "Enphase energy", "extra_info": "", "tv_code": "NASDAQ:ENPH", "first_trade_date": "2012-03-30" }
+    ,"INDO"   : { "type": "energy", "name": "", "extra_info": "", "tv_code": "NYSE:INDO", "first_trade_date": "2019-12-19" }
+    ,"OXY"    : { "type": "energy", "name": "西方石油", "extra_info": "", "tv_code": "NYSE:OXY", "first_trade_date": "1981-12-31" }
+    ,"PXD"    : { "type": "energy", "name": "Pioneer Natural Resource", "extra_info": "", "tv_code": "NYSE:PXD", "first_trade_date": "1997-08-08" }
+    ,"SWN"    : { "type": "energy", "name": "", "extra_info": "", "tv_code": "AMEX:SWN", "first_trade_date": "1980-03-17" }
+    ,"XOM"    : { "type": "energy", "name": "埃克森美孚", "extra_info": "", "tv_code": "NYSE:XOM", "first_trade_date": "1962-01-02" }
+    ,"CHWY"   : { "type": "pet", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"DOGZ"   : { "type": "pet", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"CCK"    : { "type": "xOther", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"MMM"    : { "type": "xOther", "name": "", "extra_info": "", "tv_code": "NA", "first_trade_date": "NA" }
+    ,"ABCL"   : { "type": "zzSmallcap", "name": "AbCellera Biologics", "extra_info": "", "tv_code": "NYSE:ABCL", "first_trade_date": "2020-12-11" }
+    ,"AVRO"   : { "type": "zzSmallcap", "name": "Avrobio", "extra_info": "", "tv_code": "NYSE:AVRO", "first_trade_date": "2018-06-21" }
+    ,"CEI"    : { "type": "zzSmallcap", "name": "", "extra_info": "", "tv_code": "NYSE:CEI", "first_trade_date": "2007-05-01" }
+    ,"EH"     : { "type": "zzSmallcap", "name": "億航智能", "extra_info": "", "tv_code": "NYSE:EH", "first_trade_date": "2019-12-13" }
+    ,"FFIE"   : { "type": "zzSmallcap", "name": "Faraday Future Intelligent Electric", "extra_info": "", "tv_code": "NYSE:FFIE", "first_trade_date": "2020-09-02" }
+    ,"GFAI"   : { "type": "zzSmallcap", "name": "Guardforce AI", "extra_info": "", "tv_code": "NYSE:GFAI", "first_trade_date": "2021-09-29" }
+    ,"GROM"   : { "type": "zzSmallcap", "name": "", "extra_info": "", "tv_code": "NYSE:GROM", "first_trade_date": "2017-09-14" }
+    ,"KAVL"   : { "type": "zzSmallcap", "name": "", "extra_info": "", "tv_code": "NYSE:KAVL", "first_trade_date": "2021-01-08" }
+    ,"MMAT"   : { "type": "zzSmallcap", "name": "", "extra_info": "", "tv_code": "NYSE:MMAT", "first_trade_date": "2010-11-08" }
+    ,"MULN"   : { "type": "zzSmallcap", "name": "", "extra_info": "", "tv_code": "NYSE:MULN", "first_trade_date": "2008-10-17" }
+    ,"MVST"   : { "type": "zzSmallcap", "name": "Microvast", "extra_info": "", "tv_code": "NYSE:MVST", "first_trade_date": "2019-03-27" }
+    ,"OTRK"   : { "type": "zzSmallcap", "name": "", "extra_info": "", "tv_code": "NYSE:OTRK", "first_trade_date": "2003-12-15" }
+    ,"PETZ"   : { "type": "zzSmallcap", "name": "", "extra_info": "", "tv_code": "NYSE:PETZ", "first_trade_date": "2017-09-21" }
+
+    }
 }
