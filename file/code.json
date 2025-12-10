@@ -50,7 +50,7 @@
       ,"chemical"          : ["LIN"]
       ,"itSoftware"        : ["TTD", "SAP", "ACN", "INTU", "ADBE", "NOW"]
       ,"it"                : ["AMZN", "DLO", "DOCU", "GOOG", "META", "MSFT", "PHUN", "PYPL", "RBLX", "SNAP", "PINS", "SPOT", "RDDT"]
-      ,"itHardware"        : ["TMUS", "AAPL", "AMD", "CSCO", "INTC", "LAZR", "NVDA", "ORCL", "MRVL", "AVGO"]
+      ,"itHardware"        : ["TMUS", "AAPL", "AMD", "CSCO", "INTC", "LAZR", "NVDA", "ORCL", "MRVL", "AVGO", "NET"]
       ,"itBigdata"         : ["PLTR"]
       ,"itCloud"           : ["CRM", "DDOG"]
       ,"transportation"    : ["LYFT", "UBER"]
@@ -70,7 +70,7 @@
       ,"health"            : ["CVS"]
       ,"energy"            : ["CVX", "ENPH", "INDO", "OXY", "PXD", "SWN", "XOM", "DUK", "SHEL", "NEE", "TTE"]
       ,"pet"               : ["CHWY", "DOGZ"]
-      ,"xOther"            : ["CCK", "MMM", "MELI", "NOW", "NBIS", "ANET", "TEM", "EME", "CRCL","SNDK", "CBRE", "MOH"]
+      ,"xOther"            : ["CCK", "MMM", "MELI", "NOW", "NBIS", "ANET", "TEM", "EME", "CRCL","SNDK", "CBRE", "MOH", "LHX"]
       ,"zzSmallcap"        : ["ABCL", "AVRO", "CEI", "EH", "GFAI", "GROM", "KAVL", "MULN", "MVST", "OTRK", "PETZ", "BBIG", "MMAT", "FFIE"]
     }
   },
