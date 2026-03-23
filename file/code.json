@@ -71,7 +71,7 @@
       ,"energy"            : ["CVX", "ENPH", "INDO", "OXY", "PXD", "SWN", "XOM", "DUK", "SHEL", "NEE", "TTE"]
       ,"pet"               : ["CHWY", "DOGZ"]
       ,"xOther"            : ["CCK", "MMM", "MELI", "NOW", "NBIS", "ANET", "TEM", "EME", "CRCL","SNDK", "CBRE", "MOH", "LHX"]
-      ,"zzSmallcap"        : ["ABCL", "AVRO", "CEI", "EH", "GFAI", "GROM", "KAVL", "MULN", "MVST", "OTRK", "PETZ", "BBIG", "MMAT", "FFIE"]
+      ,"zzSmallcap"        : ["ABCL", "AVRO", "CEI", "EH", "GFAI", "GROM", "MULN", "MVST", "OTRK", "PETZ", "BBIG", "MMAT", "FFIE"]
     }
   },
   "STOCK_INFO": {
